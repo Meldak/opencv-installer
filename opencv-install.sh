@@ -10,7 +10,7 @@ if [[ ! -e ./opencv ]]; then
 git clone https://github.com/opencv/opencv # si no existe una descarga de opencv previa, se descargara del repositorio de github
 fi
 cd opencv # entramos al repos descargado
-git checkout ${OPENCV_VERSION} # vambiamos de version a la que se busca
+git checkout ${OPENCV_VERSION} # cambiamos de version a la que se busca
 
 if [ ! -e ../opencv-build]; then
 mkdir ../opencv-build
