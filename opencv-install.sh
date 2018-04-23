@@ -2,7 +2,7 @@ WORKDIR="$HOME/src" # Carpeta de trabajo
 OPENCV_VERSION="3.3.1" # Version de CV que buscas
 
 if [ ! -e WORKDIR]; then
-mkdir WORKDIR # si no exixste la carpeta de trabajo se crea
+mkdir $WORKDIR # si no exixste la carpeta de trabajo se crea
 fi
 
 cd ${WORKDIR}
